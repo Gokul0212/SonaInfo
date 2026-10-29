@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "bundler",
+		"target": "ESNext",
+		"module": "ESNext",
+		"checkJs": false,
+		"allowJs": true,
+		"strict": false,
+		"ignoreDeprecations": "6.0",
+		"baseUrl": ".",
+		"paths": {
+			"$lib": ["src/lib"],
+			"$lib/*": ["src/lib/*"],
+			"$app/*": [".svelte-kit/generated/client/app/*"]
+		}
+	},
+	"include": [
+		"src/**/*.js",
+		"src/**/*.svelte"
+	]
+}
